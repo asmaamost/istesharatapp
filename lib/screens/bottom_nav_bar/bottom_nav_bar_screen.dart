@@ -19,7 +19,7 @@ class BottomNavBarScreen extends StatelessWidget {
                 activeIcon: SvgPicture.asset('assets/icons/bottom_bar_explore.svg',color: Colors.blue),
               label: "استكشف"
             ),
-            BottomNavigationBarItem
+            BottomNavigationBarItem(
                 icon: SvgPicture.asset('assets/icons/bottom_bar_explore.svg'),
                 activeIcon: SvgPicture.asset('assets/icons/bottom_bar_explore.svg',color: Colors.blue),
               label: "استكشف"
