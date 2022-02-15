@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:istchrat/screens/intro/splash_screen.dart';
+import 'package:istchrat/screens/main/main_screen.dart';
 
 
 void main() {
@@ -12,7 +13,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(     //
-      home: SplashScreen(),
+      home: MainScreen(),
     );
   }
 }
